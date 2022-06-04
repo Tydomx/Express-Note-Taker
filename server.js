@@ -1,8 +1,12 @@
 // importing express packages to give the server functionality
+// Dependencies
 const express = require('express');
+const path = require('path');
+const fs = require('fs');
+
+
 // sets up properties of the express server, instantiates the server
 const app = express();
-const { database } = require('./db/db.json');
 // setting initial port to be used later
 const PORT = process.env.PORT || 3001;
 
@@ -18,7 +22,6 @@ app.use(express.json());
 // sets up express app to serve static files
 app.use(express.static('public'));
 
-// tells our server to route using these links
 app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
 
