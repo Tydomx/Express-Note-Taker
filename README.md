@@ -6,18 +6,19 @@
   ### * [License](#license)
   ### * [Installation](#installation)
   ### * [Steps](#steps)
-  ### * [Tests](#tests)
   ### * [Questions](#questions)
 
   ## Installation:
   ### You must install the following for this app to function:
   ### This app uses Express.js back end to save and retrieve note data from a JSON file. 
   - Dependencies used: 
-      - Express, 
-      - Uuid
+      - Express
+      - Uuid used to create a random ID
    
   - To initialize the project and install the required dependencies, open a command prompt at the project's directory and run: 
-  ### TBA
+    - npm init -y
+    - npm install express
+    - npm install uuid
   
 
   ## Steps: 
@@ -28,11 +29,7 @@
   4) When the user clicks on the save icon, the new note they've entered is saved and appears in the left-hand column. 
   5) When user clicks on an existing note on the left-hand column, that note appears in the right-hand column. 
   6) When user clicks on the add icon in the navigation at the top of the page, they're presented with empty fields to enter a new note on the right-hand column.
-
-
-  ## Tests: 
-  ### Run the following commands in your terminal to test this app:
-  ### Test TBA
+  
 
   ## Questions: 
   ### If you have any questions, contact me at:
