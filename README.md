@@ -5,6 +5,7 @@
   ## Table of Contents: 
   ### * [License](#license)
   ### * [Installation](#installation)
+  ### * [Screenshot](#screenshot)
   ### * [Steps](#steps)
   ### * [Questions](#questions)
 
@@ -20,7 +21,11 @@
     - npm install express
     - npm install uuid
   
+  ## Screenshot
+  ![image](https://user-images.githubusercontent.com/99767019/172060872-11b79777-8c0a-4374-970f-0a15da6c77c0.png)
+  ![image](https://user-images.githubusercontent.com/99767019/172060892-8f94b1ca-8dc7-470e-ad02-e910ac29e7e8.png)
 
+  
   ## Steps: 
  
   1) When user opens note taker. They are presented with a landing page containing a link to a notes page. 
